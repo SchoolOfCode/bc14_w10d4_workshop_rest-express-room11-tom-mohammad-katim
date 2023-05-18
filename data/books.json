@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "author_id": 1,
+    "title": "1984",
+    "published_date": "1949-06-08"
+  },
+  {
+    "id": 2,
+    "author_id": 2,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "published_date": "1997-06-26"
+  },
+  {
+    "id": 3,
+    "author_id": 3,
+    "title": "The Lord of the Rings",
+    "published_date": "1954-07-29"
+  },
+  {
+    "id": 4,
+    "author_id": 4,
+    "title": "And Then There Were None",
+    "published_date": "1939-11-06"
+  }
+]

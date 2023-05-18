@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "first_name": "George",
+    "last_name": "Orwell"
+  },
+  {
+    "id": 2,
+    "first_name": "J.K.",
+    "last_name": "Rowling"
+  },
+  {
+    "id": 3,
+    "first_name": "J.R.R.",
+    "last_name": "Tolkien"
+  },
+  {
+    "id": 4,
+    "first_name": "Agatha",
+    "last_name": "Christie"
+  }
+]
