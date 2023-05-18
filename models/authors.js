@@ -46,4 +46,15 @@ export async function updateAuthorById(id, updates) {
     return null;
   }
 }
-rr
+export async function deleteAuthorById(id) {
+  // Query the database to delete an author and return the deleted author
+  const { rows } = await pool.query(
+    "DELETE FROM authors WHERE id=$1 RETURNING *",
+    [id]
+  );
+  if (rows.length > 0) {
+    return rows[0];
+  } else {
+    return null;
+  }
+}
